@@ -26,7 +26,7 @@ public class Application {
     @RequestMapping("/")
     public String greetings(){
         Greetings greetingService = (Greetings)context.getBean("greetingService");
-        String result = greetingService.say("Dubbo Docker");
+        String result = greetingService.say("Dubbo Docker houchao congratulation");
         return result;
     }
 }
